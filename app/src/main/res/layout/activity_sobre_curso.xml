@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="371dp"
+        android:layout_height="162dp"
+        app:srcCompat="@drawable/images" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOBRE O CURSO"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Análise e Desenvolvimento de Sistemas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duração: 2,5 anos"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modalidade: Presencial"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="25dp"
+        android:text="O curso prepara o aluno para desenvolver sistemas, aplicativos e soluções tecnológicas. O estudante aprende programação, banco de dados, desenvolvimento web, desenvolvimento mobile, engenharia de software e inteligência artificial."
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnDisciplinas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISCIPLINAS"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
