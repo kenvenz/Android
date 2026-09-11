@@ -6,43 +6,53 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="24dp">
+    android:padding="20dp"
+    android:background="#000000">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="197dp"
-        app:srcCompat="@drawable/marca" />
+        android:id="@+id/logoJujutsu"
+        android:layout_width="328dp"
+        android:layout_height="223dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_jujutsu" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Análise e Desenvolvimento de Sistemas"
+        android:gravity="center"
+        android:text="Tokyo Prefectural Jujutsu High School"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Curso voltado para desenvolvimento de sistemas, aplicativos e soluções tecnológicas."
-        android:textSize="17sp"
         android:gravity="center"
+        android:text="Tokyo Jujutsu High
+Uma escola para aqueles que aprendem a enfrentar e controlar as maldições."
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
         android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/btnConheca"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
         android:text="CONHEÇA O CURSO"
-        android:layout_marginTop="30dp" />
+        android:textColor="#000000"
+        android:backgroundTint="#FF0000" />
 
     <Button
         android:id="@+id/btnDisciplinas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:text="DISCIPLINAS"
-        android:layout_marginTop="10dp" />
+        android:textColor="#000000"
+        android:backgroundTint="#FF0000" />
 
 </LinearLayout>

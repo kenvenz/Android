@@ -5,36 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Modalidade: Presencial"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="371dp"
         android:layout_height="162dp"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/images" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SOBRE O CURSO"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="SOBRE A ESCOLA"
+        android:textColor="#FFFFFF"
         android:textSize="28sp"
-        android:textStyle="bold"
-        android:gravity="center" />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Análise e Desenvolvimento de Sistemas"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:layout_marginTop="25dp"
         android:gravity="center"
-        android:layout_marginTop="25dp" />
+        android:text="TOKYO JUJUTSU HIGH"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Duração: 2,5 anos"
         android:textSize="18sp"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="25dp" />
 
     <TextView
@@ -42,13 +57,15 @@
         android:layout_height="wrap_content"
         android:text="Modalidade: Presencial"
         android:textSize="18sp"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="128dp"
+        android:layout_height="111dp"
         android:layout_marginTop="25dp"
-        android:text="O curso prepara o aluno para desenvolver sistemas, aplicativos e soluções tecnológicas. O estudante aprende programação, banco de dados, desenvolvimento web, desenvolvimento mobile, engenharia de software e inteligência artificial."
+        android:text="A Escola Técnica de Jujutsu de Tóquio é dedicada ao treinamento de feiticeiros. Nela, os alunos aprendem a controlar a energia amaldiçoada, desenvolver suas técnicas e enfrentar diferentes tipos de maldições."
+        android:textColor="#FFFFFF"
         android:textSize="17sp" />
 
     <Button
@@ -56,6 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VOLTAR"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="30dp" />
 
     <Button
@@ -63,6 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DISCIPLINAS"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="10dp" />
 
 </LinearLayout>

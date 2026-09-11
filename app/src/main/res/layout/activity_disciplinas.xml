@@ -2,71 +2,107 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:background="#000000"
+        android:padding="15dp"
+        android:gravity="center">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DISCIPLINAS"
-            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:gravity="center"
-            android:layout_marginBottom="20dp" />
+            android:padding="10dp"
+            android:layout_marginBottom="18dp" />
 
         <TextView
+            android:id="@+id/txtProgramacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1. Programação"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp" />
 
         <TextView
+            android:id="@+id/txtBancoDados"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2. Banco de Dados"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp" />
 
         <TextView
+            android:id="@+id/txtEngenharia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3. Engenharia de Software"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp" />
 
         <TextView
+            android:id="@+id/txtDesenvolvimentoWeb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="4. Desenvolvimento Web"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp" />
 
         <TextView
+            android:id="@+id/txtDesenvolvimentoMobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="5. Desenvolvimento Mobile"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="6dp" />
 
         <TextView
+            android:id="@+id/txtInteligenciaArtificial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="6. Inteligência Artificial"
-            android:textSize="19sp"
-            android:padding="15dp" />
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginBottom="15dp" />
 
         <Button
             android:id="@+id/btnVoltar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="VOLTAR"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="5dp" />
 
     </LinearLayout>
 
